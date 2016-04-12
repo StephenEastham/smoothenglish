@@ -2775,16 +2775,16 @@
 	
 			}
 
-				body:not(.is-touch) .tiles article:hover > .image:before {
+				body:/*not(.is-touch)*/ .tiles article:hover > .image:before {
 					background-color: #afffff;
 					opacity: 0;
 				}
 
-				body:not(.is-touch) .tiles article:hover > .image:after {
+				body:/*not(.is-touch)*/ .tiles article:hover > .image:after {
 					opacity: 0;
 				}
 
-			body:not(.is-touch) .tiles article:hover .content {
+			body:/*not(.is-touch)*/ .tiles article:hover .content {
 				max-height: 15em;
 				opacity: 1;
 			}
