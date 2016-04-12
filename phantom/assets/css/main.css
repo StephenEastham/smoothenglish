@@ -1688,12 +1688,31 @@
 
 	p {
 		margin: 0 0 2em 0;
+		background-color:#f2f2f2;
+		color:#666;
+		font-family:'Droid Sans',Tahoma,Arial,sans-serif;
+		font-size:16px;line-height:1.6em;
 	}
 
 	h1 {
+		/*copied from smoothenglish*/
+		color:/*#0B0D0B*/ #178DB1;
+		font:normal 120px /*Allura*/, Helvetica;
+		line-height:0.1em;
+		margin:0;
+		padding:/*10*/0px 0;
+		text-align:left;
+		text-shadow:0 1px 0 #fff;
+		font-family: Allura;
+		font-size:145px;
+		color:#777;
+		margin:0;
+		padding:0;
+		
+		/*in original
 		font-size: 2.75em;
 		font-weight: 700;
-		line-height: 1.3;
+		line-height: 1.3;*/
 		margin: 0 0 1em 0;
 		letter-spacing: -0.035em;
 	}
